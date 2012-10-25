@@ -1,8 +1,16 @@
-﻿<Window x:Class="WoWSharp_WPF.MainWindow"
+﻿<Controls:Window x:Class="WoWSharp_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
+        xmlns:Controls="clr-namespace:Elysium.Theme.Controls;assembly=Elysium.Theme"
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="600" Width="800">
+    <Controls:Window.ApplicationBar>
+        <Controls:ApplicationBar>
+            <!-- Right Click on the UI to open Application Bar -->
+            <Controls:DropDownCommandButton  Header="THEME"/>
+        </Controls:ApplicationBar>
+    </Controls:Window.ApplicationBar>
     <Grid>
-        
+    
     </Grid>
-</Window>
+</Controls:Window>

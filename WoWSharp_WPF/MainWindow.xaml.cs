@@ -18,7 +18,7 @@ namespace WoWSharp_WPF
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Elysium.Theme.Controls.Window
     {
         public MainWindow()
         {

@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp_WPF", "WoWSharp_WPF\WoWSharp_WPF.csproj", "{51519023-411F-4069-80AD-01546C825DB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp WPF", "WoWSharp_WPF\WoWSharp WPF.csproj", "{51519023-411F-4069-80AD-01546C825DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp_Metro", "WoWSharp_Metro\WoWSharp_Metro.csproj", "{B1F1353A-47F4-400D-A9EF-AA8D29F60061}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp_API", "WoWSharp_API\WoWSharp_API.csproj", "{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp Metro", "WoWSharp_Metro\WoWSharp Metro.csproj", "{B1F1353A-47F4-400D-A9EF-AA8D29F60061}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FA05C5E0-98B8-41BC-AE17-0D554D3E3752}"
 	ProjectSection(SolutionItems) = preProject
@@ -13,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FA05C5
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp API Tests", "WoWSharp API Tests\WoWSharp API Tests.csproj", "{CF7887CF-00DA-4767-A084-EF6496FFC654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoWSharp API", "WoWSharp API\WoWSharp API.csproj", "{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,16 +62,26 @@ Global
 		{B1F1353A-47F4-400D-A9EF-AA8D29F60061}.Release|x86.ActiveCfg = Release|x86
 		{B1F1353A-47F4-400D-A9EF-AA8D29F60061}.Release|x86.Build.0 = Release|x86
 		{B1F1353A-47F4-400D-A9EF-AA8D29F60061}.Release|x86.Deploy.0 = Release|x86
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Release|ARM.ActiveCfg = Release|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Release|x64.ActiveCfg = Release|Any CPU
-		{BEFCC51B-CB39-46EC-B14E-4FA4ECCB37DC}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Release|x64.ActiveCfg = Release|Any CPU
+		{CF7887CF-00DA-4767-A084-EF6496FFC654}.Release|x86.ActiveCfg = Release|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Release|x64.ActiveCfg = Release|Any CPU
+		{EF07F8DB-41C6-4E9D-959D-30124FE21EBC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

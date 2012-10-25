@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WoWSharp_API")]
+[assembly: AssemblyTitle("WoWSharp API")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WoWSharp_API")]
+[assembly: AssemblyProduct("WoWSharp API")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("861b67da-9099-432f-8cab-ecf3ba1b4647")]
+[assembly: Guid("ff70b307-ea74-4908-9ce4-b262ea6fc75a")]
 
 // Version information for an assembly consists of the following four values:
 //
