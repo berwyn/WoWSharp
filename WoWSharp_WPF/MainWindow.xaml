@@ -1,16 +1,19 @@
-﻿<Controls:Window x:Class="WoWSharp_WPF.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:Controls="clr-namespace:Elysium.Theme.Controls;assembly=Elysium.Theme"
-        WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="600" Width="800">
+﻿<Controls:Window x:Class="WoWSharp_WPF.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                 xmlns:Controls="clr-namespace:Elysium.Theme.Controls;assembly=Elysium.Theme"
+                 xmlns:local="clr-namespace:WoWSharp_WPF"
+                 xmlns:models="clr-namespace:WowDotNetAPI.Models;assembly=WowDotNetAPI"
+                 xmlns:ViewModel="clr-namespace:WoWSharp_WPF.ViewModel" WindowStartupLocation="CenterScreen"
+                 Title="MainWindow" Height="600" Width="800" Loaded="Window_Loaded">
     <Controls:Window.ApplicationBar>
         <Controls:ApplicationBar>
             <!-- Right Click on the UI to open Application Bar -->
-            <Controls:DropDownCommandButton  Header="THEME"/>
+            <Controls:DropDownCommandButton Header="THEME" />
         </Controls:ApplicationBar>
     </Controls:Window.ApplicationBar>
     <Grid>
-    
+        <ViewModel:CharacterIconViewModel Name="Cuifen_View" />
+        <ViewModel:CharacterIconViewModel Name="Anqwas_View" />
+        <ViewModel:CharacterIconViewModel Name="Leyr_View" />
     </Grid>
 </Controls:Window>

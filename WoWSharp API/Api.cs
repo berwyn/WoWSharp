@@ -6,6 +6,8 @@ namespace WoWSharp_API
 {
     public static class Api
     {
+        public const string ThumbnailUrlBase = "http://{0}.battle.net/static-render/{0}/{1}";
+
         private static WowExplorer ApiClient { get; set; }
         private static List<Character> Characters { get; set; }
         private static List<Guild> Guilds { get; set; } 
